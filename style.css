@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: aquamarine;
+
+}
+.main{
+    display: grid;
+}
+.container{
+    width: 600px;
+    position: relative;
+    left: 370px;
+    
+}
+.head{
+    width: 100%;
+    height: 84px;
+    background-color: white;
+    text-align: center;
+
+}
+h4{
+    position: relative;
+    top: 30px;
+    font-size: 22px;
+}
+.sub-container{
+    width: 100%;
+    height: 400px;
+    background-image: url(bg_1.jpg);
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+.con-head{
+    position: relative;
+    top: 100px;
+}
+.con-para{
+    position: relative;
+    top: 120px;
+    line-height: 2;
+    margin: 0 20px;
+    padding: 0 20px;
+    
+}
+button{
+    border-radius: 20px;
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+    position: relative;
+    top: 140px;
+    height: 30px;
+}
+.foot{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+hr{
+    width: 10%;
+    border-top: none;
+    border: 1px solid green;
+    margin: auto;
+    
+}
+.foot-head{
+  padding-top: 20px;
+  padding-bottom: 20px;
+ 
+}
+.foot-para{
+    line-height: 2;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+.title{
+   padding-top: 50px;
+   padding-bottom: 15px;
+   letter-spacing: 2px;
+}
+.container-a{
+    background-color: whitesmoke;
+    width: 600px;
+    position: relative;
+    left: 370px;
+    text-align: center;
+ 
+}
+.logo{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.logo-a{
+    height: 215;
+    width: 263;
+}
+.logo-b{
+    height: 215;
+    width: 263;
+}
+h2{
+    margin: 20px 0px;
+}
+.vid{
+    width: 600px;
+    background-color: gray;
+    height: 610px;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+.menu{
+    width: 600px;
+    background-color: whitesmoke;
+    height: 700px;
+    
+    padding-top: 20px;
+}
+.item-a{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.item-a p,.item-b p{
+    margin-left: 0;
+    padding-left: 0;
+}
+.menu p{
+    padding-bottom: 20px;
+}
+.item-button{
+    border-radius: 20px;
+    background-color: yellowgreen;
+    border: none;
+    color: black;
+    position: relative;
+    top: 0px;
+}
+.container-b{
+    width: 600px;
+    position: relative;
+    left: 370px;
+}
+.catagory{
+    display: flex;
+}
+.text{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.text p{
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+.text hr{ 
+    float: left;
+    width: 30%;
+    
+}
+.text h2{
+    margin-top: 30px;
+}
+.feed-back{
+    width: 600px;
+    height: 206px;
+    background-image: url(bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    display: flex;
+    color: antiquewhite;
+    text-align: center;
+    
+}
+.feed-back p{
+    font-size: 20px;
+    
+}
+.feed-back h1{
+    font-size: 50px;
+   
+}
+.feed{
+    padding-top: 60px;
+    padding-left: 18px;
+    text-indent: 10px;
+}
+.footer{
+    width: 600px;
+    position: relative;
+    left: 370px;
+    background-color: black;
+    color: antiquewhite;
+    height: 400px;
+    text-align: center;
+}
